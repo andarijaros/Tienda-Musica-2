@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lutier Rojas</title>
+    <style>
+        * {
+            margin: 0; box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header {
+            background-image: url(guitarra-cabe.jpg); background-size: cover;
+            height: 250px;
+            display: flex;
+            justify-content: center; align-items: center; text-align: center;
+        }
+        header h1, h2 {
+            text-shadow: 3px 3px 5px black;
+        }
+        header h2 {color: yellowgreen;}
+        header h1 {color: yellow; font-size: 3em;}
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: antiquewhite; color: brown;
+            padding: 10px;
+        }
+        nav a {
+            color: brown;
+            text-decoration: none;
+        }
+        nav a:hover {
+            color: yellowgreen;
+            text-shadow: 2px 2px 5px yellow;
+        }
+        section#sec1 {
+            background-color: brown;
+        }
+        section .titulos {
+            color: antiquewhite;
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+        }
+        div#quienes-somos {
+            display: flex;
+            text-align: center;
+        }
+        article {
+            width: 50%;
+        }
+        article#foto-guitarra img {
+            width: 50%;
+            padding: 10px;
+        } 
+        article#der h3 {
+            color: yellow;
+            padding: 10px;
+        }
+        article#der p {
+            color: yellowgreen;
+        }
+        #sec2 {
+            background-color: burlywood;
+            display: flex;flex-wrap: wrap; 
+            justify-content: center;align-items: center;
+            padding: 20px;
+        }    
+        img.expo {
+            width: 350px; height: 300px;
+            border-radius: 50%;
+            padding: 10px;
+        }    
+        #ventas {
+            display: flex;justify-content: space-around;
+            text-align: center; align-items: center;
+            background-color: gray; width: 80%;
+        }   
+        section a {
+            color: yellow;
+            text-decoration: none;
+        }
+        section a:hover {
+            color: yellowgreen;
+        }
+        footer {
+            display: flex;
+            justify-content: space-around;
+            background-color: black; color: antiquewhite;
+            text-align: center;
+            padding: 10px;
+        }
+        footer a {
+            color: yellow;
+            text-decoration: none;
+        }
+        footer a:hover {
+            color: yellowgreen;
+        }
+        #redes {
+            display: flex;
+        }
+        .def {
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Lutier Rojas</h1>
+            <h2>Las Mejores gutarras del mercado</h2>
+        </div>
+    </header>
+    <nav>
+        <a href="#"><h3>Inicio</h3></a>
+        <a href="#"><h3>Quienes Somos</h3></a>
+        <a href="#"><h3>Donde Estamos</h3></a>
+        <a href="#"><h3>Contacto</h3></a>
+    </nav>
+    <section id="sec1">
+        <h3 class="titulos">Quienes Somos</h3>
+            <div id="quienes-somos">
+                <article id="foto-guitarra">
+                    <img src="guitarra-electrica-cons.jpeg" alt="">
+                </article>
+                <article id="der">
+                    <h3>Especialista en construcciones de guitarra desde ayer.</h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis
+                        fugiat vel adipisci et nemo eius, enim ea mollitia. Cum officia rerum
+                        quisquam totam unde ex excepturi veniam voluptas enim suscipit.
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis
+                        fugiat vel adipisci et nemo eius, enim ea mollitia. Cum officia rerum
+                        quisquam totam unde ex excepturi veniam voluptas enim suscipit.
+                    </p>
+                </article>
+            </div>
+    </section>
+    <section id="sec2">
+        <h3 class="titulos">Recomendamos</h3>
+        <div id="ventas">
+            <div>
+            <a href="#">
+            <img class="expo" src="guita-steve.jpg" alt="" >
+            <p class="def">Guitarra Steve Ray Rojas</p>
+            </a>
+            </div>
+            <div>
+            <a href="#">
+            <img class="expo" src="electrica-tienda.avif" alt="">
+            <p class="def">Guitarra B.B Rojas</p>
+            </a>
+            </div>
+            <div>
+            <a href="#">
+            <img class="expo" src="arreglo-guitarra.jpg" alt="">
+            <p class="def">Arreglos de Guiatarra</p>
+            </a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <h3>Redes Sociales</h3>
+            <div id="redes">
+            <a href="#"><p>Facebook-</p></a>
+            <a href="#"><p>Twiter-</p></a>
+            <a href="#"><p>Instagram</p></a>
+            </div>
+        </div>
+        <div>
+            <h3>Estamos en:</h3>
+            <p>Avenida Avenida 8, Teruel</p>
+        </div>
+        <div>
+            <h3>Email:</h3>
+            <p>rojas@lutier.es</p>
+        </div>
+    </footer>
+</body>
+</html>
